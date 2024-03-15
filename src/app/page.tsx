@@ -1,4 +1,3 @@
-import { Main } from "@/components/home/Main";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -10,7 +9,16 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Main />
+      <Intro />
     </main>
+  );
+}
+
+function Intro() {
+  return (
+    <>
+      <h1>Welcome to our cinema</h1>
+      <p>Explore and see all movies you want</p>
+    </>
   );
 }
