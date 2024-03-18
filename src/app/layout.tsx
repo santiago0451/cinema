@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { Header } from "@/components/shared/header";
+import { TopBar } from "@/components/shared/header";
 import { Footer } from "@/components/shared/footer";
 import "./globals.css";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
+        <TopBar />
         {children}
         <Footer />
       </body>
