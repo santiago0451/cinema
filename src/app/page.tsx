@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Cinema",
@@ -32,58 +33,70 @@ function CurrentMoviesSection() {
       <h1 className="font-bold">Current movies</h1>
       <ul>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-current.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-current.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-current.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-current.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-current.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-current.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-current.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-current.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-current.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-current.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-current.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-current.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
       </ul>
     </>
@@ -96,58 +109,70 @@ function ComingMoviesSection() {
       <h1 className="font-bold">Coming movies</h1>
       <ul>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-coming.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-coming.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-coming.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-coming.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-coming.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-coming.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-coming.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-coming.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-coming.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-coming.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
         <li>
-          <p>Movie name</p>
-          <Image
-            src="/images/cinema-coming.jpg"
-            alt="Picture of cinema things"
-            width={100}
-            height={100}
-          />
+          <Link href="/movies-detail">
+            <p>Movie name</p>
+            <Image
+              src="/images/cinema-coming.jpg"
+              alt="Picture of cinema things"
+              width={100}
+              height={100}
+            />
+          </Link>
         </li>
       </ul>
     </>
